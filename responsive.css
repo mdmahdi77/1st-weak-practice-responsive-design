@@ -1,0 +1,135 @@
+@media (max-width: 992px){
+    .navbar{
+        display: flex;
+    }
+    .navList ul{
+        display: none;
+    }
+    .icon-bar i{
+        display: block;
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+    }
+    .porfolio-name{
+        margin-top: 110px;
+    }
+    .porfolio-name h1{
+        font-size: 50px;
+    }
+    .porfolio-name h5{
+        font-size: 19px;
+    }
+    .hire{
+        margin-top: 50px;
+    }
+    .hire button{
+        padding: 13px 28px;
+    }
+    /********************************* my bio ************************************/
+    .bio-info{
+        display: block;
+    }
+    .bio-img img{
+        width: 100%;
+    }
+    .bio-text{
+        margin-top: 20px;
+    }
+    /********************************* my portfolio list ************************************/
+    .portfolio-list-details{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /***********************************************************************my services*****************************************************/
+    .services{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /***********************************************************************my resume*****************************************************/
+    .resumes{
+        display: block;
+    }
+    .resume-img img{
+        width: 100%;
+    }
+    /***********************************************************************my client*****************************************************/
+    .clients{
+        display: block;
+    }
+    /***********************************************************************my footer*****************************************************/
+    .footer-part{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+
+@media (max-width: 768px){
+    .porfolio-name{
+        margin-top: 100px;
+    }
+    .porfolio-name h1{
+        font-size: 45px;
+    }
+    .porfolio-name h5{
+        font-size: 16px;
+    }
+    .hire{
+        margin-top: 70px;
+    }
+    .hire button{
+        padding: 11px 25px;
+    }
+    /********************************* my portfolio list ************************************/
+    .portfolio-list-details{
+        display: block;
+    }
+    .portfolio-img img{
+        width: 100%;
+        height: 100%;
+    }
+    /***********************************************************************my services*****************************************************/
+    .services{
+        display: block;
+    }
+    .service{
+        margin-bottom: 40px;;
+    }
+    /***********************************************************************my contact*****************************************************/
+    .contacts{
+        display: block;
+    }
+    .contact-details{
+        margin-top: 70px;
+    }
+    .info-icon{
+        margin-top: 30px;
+    }
+    /***********************************************************************my contact*****************************************************/
+    .footer-part{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}    
+@media (max-width: 576px){
+    .porfolio-name{
+        margin-top: 100px;
+    }
+    .porfolio-name h1{
+        font-size: 40px;
+    }
+    .porfolio-name h5{
+        font-size: 14px;
+    }
+    .hire{
+        margin-top: 70px;
+    }
+    .hire button{
+        padding: 9px 23px;
+    }
+    /***********************************************************************my contact*****************************************************/
+    .footer-part{
+        display: block;
+    }
+    .footer-part-2{
+        margin-top: 40px;
+    }
+}
